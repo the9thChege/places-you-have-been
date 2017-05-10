@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.2.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Places</title>
+</head>
+
+<body>
+  <div class="container">
+    <center><h1>Places</h1></center>
+
+    <div class="row">
+      <div class="col-md-6">
+        <h2>Where did you go this time?</h2>
+        <form id="new-destination">
+          <div class="form-group">
+            <label for="new-locale">Location</label>
+            <input type="text" class="form-control" id="new-locale">
+          </div>
+          <div class="form-group">
+            <label for="new-sights">Sights to see:</label>
+            <input type="text" class="form-control" id="new-sights">
+          </div>
+          <div class="form-group">
+            <label for="new-costs">Estimated Costs (in USD):</label>
+            <input type="text" class="form-control" id="new-costs">
+          </div>
+          <div class="form-group">
+            <label for="new-notes">Notes:</label>
+            <input type="text" class="form-control" id="new-notes">
+          </div>
+
+          <button type="submit" class="btn">Add</button>
+        </form>
+
+        <h2>Destinations:</h2>
+        <ul id="places">
+          <li><span class="romania">Romania</span></li>
+          <li><span class="jozi">Johannesburg</span></li>
+          <li><span class="gabon">Gabon</span></li>
+          <li><span class="lamu">Lamu</span></li>
+          <li><span class="nebraska">Nebraska</span></li>
+          <li><span class="zimbabwe">Zim ba bwe</span></li>
+          <li><span class="moon">The Moon</span></li>
+        </ul>
+      </div>
+      <div class="col-md-6">
+        <div id="show-place">
+          <h2></h2>
+
+          <p>Destination: <span class="destination"></span></p>
+          <p>Sights to see: <span class="sights"></span></p>
+          <p>Estimated Costs: <span class="costs"></span></p>
+          <p>Notes: <span class="notes"></span></p>
+        </div>
+
+        <div id="romania">
+          <h2>Romania</h2>
+          <p>Destination: <span>Romania</span></p>
+          <p>Sights to see: <span>Heratstrau Park, Merry Cemetery, Bran Castle, Corvin Castle</span></p>
+          <p>Month visited: <span>January</span></p>
+          <p>Estimated Costs: <span>$3000</span></p>
+          <p>Notes: <span>The birthplace of Dracula</span></p>
+          <img src="img/bran-castle-romania.jpg" alt="Bran Castle">
+        </div>
+
+        <div id="jozi">
+          <h2>Johannesburg</h2>
+          <p>Destination: <span>Johannesburg, South Africa</span></p>
+          <p>Sights to see: <span>Apartheid Museum, Gold Reef City, The Wilds, Johannesburg CBD</span></p>
+          <p>Month visited: <span>December</span></p>
+          <p>Estimated Costs: <span>$5400</span></p>
+          <p>Notes: <span>Capital City of South Africa. A metropolitan paradise.</span></p>
+          <img src="img/jozi.jpg" alt="Jozi!">
+        </div>
+
+        <div id="gabon">
+          <h2>Gabon</h2>
+          <p>Destination: <span>Gabon</span></p>
+          <p>Sights to see: <span>Akanda National Park, Corisco, Bay of Nazare</span></p>
+          <p>Month visited: <span>August</span></p>
+          <p>Estimated Costs: <span>$3000</span></p>
+          <p>Notes: <span>Polish up on your French! You'll need it.</span></p>
+          <img src="img/gabon-river.jpg" alt="The greening Gabon River">
+        </div>
+
+        <div id="lamu">
+          <h2>Lamu</h2>
+          <p>Destination: <span>Lamu, Kenya</span></p>
+          <p>Sights to see: <span>Lamu Fort, Kipungani Bay, Manda Island</span></p>
+          <p>Month visited: <span>September</span></p>
+          <p>Estimated Costs: <span>$540</span></p>
+          <p>Notes: <span>Little Italy.</span></p>
+          <img src="img/lamu.jpg" alt="Beachy">
+        </div>
+
+        <div id="nebraska">
+          <h2>Nebraska</h2>
+          <p>Destination: <span>Nebraska</span></p>
+          <p>Sights to see: <span>Henry Doorly Zoo and Aquarium, Pioneer Village, Sunken Gardens, Freedom Park</span></p>
+          <p>Month visited: <span>March</span></p>
+          <p>Estimated Costs: <span>$7400</span></p>
+          <p>Notes: <span>Welcome to the Mid-West.</span></p>
+          <img src="img/nebraska.jpg" alt="Carnival">
+        </div>
+
+        <div id="zimbabwe">
+          <h2>Zim Ba Bwe</h2>
+          <p>Destination: <span>Zim Ba Bwe, Zimbabwe</span></p>
+          <p>Sights to see: <span>The ancient stone city.</span></p>
+          <p>Month visited: <span>April</span></p>
+          <p>Estimated Costs: <span>$4000</span></p>
+          <p>Notes: <span>"Zim ba bwe" means "Great house of stone".</span></p>
+          <img src="img/zim-ba-bwe.jpg" alt="The Ruins">
+        </div>
+
+        <div id="moon">
+          <h2>The Moon</h2>
+          <p>Destination: <span>North, The Moon</span></p>
+          <p>Sights to see: <span>Earth, The Sun, Starlight</span></p>
+          <p>Month visited: <span>SERIOUSLY? ARE YOU STILL READING?</span></p>
+          <p>Estimated Costs: <span>$3000000</span></p>
+          <p>Notes: <span>Cheese.</span></p>
+          <img src="img/moon.jpg" alt="Haha!">
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

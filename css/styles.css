@@ -1,0 +1,95 @@
+#show-place {
+  display: none;
+}
+
+#romania{
+  display: none;
+}
+.romania{
+  cursor: crosshair;
+  color: #bd2707;
+}
+.romania:hover{
+  text-decoration: underline;
+}
+
+#jozi{
+  display: none;
+}
+.jozi{
+  cursor: crosshair;
+  color: #bd2707;
+}
+.jozi:hover{
+  text-decoration: underline;
+}
+
+#gabon{
+  display: none;
+}
+.gabon{
+  cursor: crosshair;
+  color: #bd2707;
+}
+.gabon:hover{
+  text-decoration: underline;
+}
+
+#lamu{
+  display: none;
+}
+.lamu{
+  cursor: crosshair;
+  color: #bd2707;
+}
+.lamu:hover{
+  text-decoration: underline;
+}
+
+#nebraska{
+  display: none;
+}
+.nebraska{
+  cursor: crosshair;
+  color: #bd2707;
+}
+.nebraska:hover{
+  text-decoration: underline;
+}
+
+#zimbabwe{
+  display: none;
+}
+.zimbabwe{
+  cursor: crosshair;
+  color: #bd2707;
+}
+.zimbabwe:hover{
+  text-decoration: underline;
+}
+
+#moon{
+  display: none;
+}
+.moon{
+  cursor: crosshair;
+  color: #bd2707;
+}
+.moon:hover{
+  text-decoration: underline;
+}
+
+.locality {
+  cursor: pointer;
+  color: #1b28d0;
+}
+
+.locality:hover {
+  text-decoration: underline;
+  color: #bd2707;
+}
+
+img{
+  width: 400px;
+  height: 300px;
+}
